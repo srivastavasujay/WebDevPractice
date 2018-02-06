@@ -1,0 +1,75 @@
+*{  margin-top: 0px ;
+	margin-left: 5px;
+	margin-bottom: 0px;
+	margin-right: 10px ;
+	padding: 0;
+	box-sizing: border-box;
+}
+#complete
+{
+	background-color: #2b4472;
+	color:white;
+	height: 75px;
+}
+#input_form{
+	float: right;
+}
+#heading{
+	margin-left: 10px;
+	margin-top: 10px;
+}
+.try
+{ text-align: right ; }
+.try2
+{ margin-right: 100px ;
+	text-align: right;
+ }
+#birthday
+{
+	margin-right: 150px;
+}
+#body
+{
+	background-color: #cfe2ff;
+}
+#create
+{
+	color: grey;
+	height: 100px;
+	width: 250px;
+	display: inline-block;
+}
+#login
+{
+	background-color: #2b4472;
+	color: white;
+	text-align: center;
+	padding: 2px;
+	border-radius: 4px;
+}
+#button
+{
+	border-radius: 8px;
+	padding: 10px 24px;
+	background-color: #4ccf5f;
+	color: white;
+	text-align: center;
+}
+#image
+{
+	align-self: left;
+	position: absolute;
+	top: 150px;
+	left: 30px;
+	width: 700px;
+}
+#link
+{
+	position: absolute;
+	top: 525px;
+	left: 900px
+}
+#line
+{
+	margin-left: 825px;
+}
