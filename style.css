@@ -57,11 +57,11 @@
 }
 #image
 {
-	align-self: left;
+	text-align: left;
 	position: absolute;
-	top: 150px;
-	left: 30px;
-	width: 700px;
+	top: 18%;
+	left: 7%;
+	width: 35%;
 }
 #link
 {
