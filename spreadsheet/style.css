@@ -1,0 +1,33 @@
+.main-heading{
+	text-align: center;
+	color: black;
+	padding: 20px;
+	border: 3px solid black;
+	display: table;
+	width: 30%;
+	margin-left: 33%;
+	margin-right: 30%;
+	align-content: center;
+}
+#body{
+	background-color: #76e288
+}
+.form{
+	position: absolute;
+	left: 30%;
+	right: 30%;
+	text-align: center;
+}
+.submit{
+	padding: 5px;
+	border-radius: 5px;
+}
+#myTable{
+	margin-top: 20%;
+	border: 1px solid black;
+	width: 100%;
+	opacity: 0;
+}
+table,td{
+	border: 1px solid black;
+}

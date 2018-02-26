@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Spreadsheet</title>
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body id="body">
+<h1 class="main-heading" align="center">My Spreadsheet</h1>
+<form class="form">
+	<h3 align="center">Enter the number of rows:</h3>
+	<input type="text" name="rows" size="60" id="rows"><br>
+	<h3 align="center">Enter the number of column:</h3>
+	<input type="text" name="columns" size="60" id="columns"><br><br>
+	<button  class="submit" type="submit" onmouseover="spread()">Submit</button>
+</form><br>
+<table id="myTable">
+	<tr></tr>
+</table>
+
+</body>
+<script>
+      function spread()
+{
+		var x=document.getElementById("rows").value;
+		var y=document.getElementById("columns").value;
+		console.log("x");
+		//var t=document.createElement("TABLE");
+		//t.setAttribute("id","myTable");
+		//document.getElementById("body").appendChild(t);
+		document.getElementById("myTable").style.opacity= 1;
+		var t=document.getElementById("myTable");
+		for(var i=0;i<x;i++)
+		{
+			//var ro=document.getElementById("myTable").insertRow(i);
+			var ro=t.insertRow(i);
+			//ro.setAttribute("className","myTR");
+			for(var j=0;j<y;j++)
+			{
+				ro.insertCell(j).innerHTML="Sujay";
+				//co.setAttribute("className","td");
+			}
+		}
+}
+</script>
+</html>
